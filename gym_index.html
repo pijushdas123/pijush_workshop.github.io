@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+
+            background: url("image.jpg");
+            height: 940px;
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            font-size: 12px;
+
+
+        }
+
+        .left img {
+            width: 65px;
+            height: 65px;
+            border-radius: 23px;
+            display: block;
+            margin: auto;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            position: absolute;
+            top: 20px;
+            right: 10px;
+
+        }
+
+        body {
+            color: white;
+        }
+
+        .navbar {}
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px;
+        }
+
+        .navbar li a:hover,
+        .navbar li :active {
+            color: red;
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 9px 9px;
+            border: 2px solid red;
+            border-radius: 12px;
+            background-color: rgb(231, 250, 65);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            /* border: 2px solid blue; */
+            padding: 4px 4px;
+
+            margin-top: 161px;
+            margin-left: 206px;
+            width: 33%;
+            height: 400px;
+            border-radius: 3px;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 59%;
+            font-size: 17px;
+            border-radius: 17px;
+            padding: 5px;
+            margin: 9px auto;
+        }
+
+        .container .btn1 {
+            width: 61%;
+            display: block;
+            font-size: 17px;
+            margin: auto;
+            border-radius: 14px;
+            cursor: pointer;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>PIJUSH FITNESS CAMP</div>
+
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="contact.html">Contac us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>JOIN THE BEST GYM OF COOCHBEHAR</h2>
+        <form action="no action.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your gender">
+
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your mobile no">
+
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your email">
+
+            </div>
+
+        </form>
+        <button class="btn1">submit</button>
+    </div>
+</body>
+
+</html>
